@@ -8,8 +8,11 @@ local colors = {
     DarkPurple = "#372549",
     Purple = "#774C60",
     Red = "#B75D69",
-    Orange = "#F3A87C",
+    Orange = "#FFC15E",
     Pink = "#F6A2C9",
+    Blue = "#13CDF6",
+    LightBlue = "#89DFE3"
+
 }
 
 local theme = crooked.NewTheme();
@@ -22,12 +25,12 @@ theme.base.type = {fg = colors.Red, bold = true}
 theme.base.method = {fg = colors.Orange, bold = true}
 theme.base.identifier = {fg = colors.DarkPurple}
 theme.base.statement = {fg = colors.Purple}
-theme.base.comment = {fg = colors.Gray, italic = true}
+theme.base.comment = {fg = colors.LightBlue, italic = true}
 theme.base.constant = {fg = colors.Pink, underline = true}
 theme.base.preproc = {fg = colors.Orange, bold = true}
 theme.base.symbol = {fg = colors.Orange}
 theme.base.boolean = {fg = colors.Pink, bold = true, underline = true}
-theme.base.keyword = {fg = colors.DarkPurple}
+theme.base.keyword = {fg = colors.Purple}
 
 theme.editor.lineNumber = {fg = colors.Gray, bg = colors.Black, bold = true}
 theme.editor.colorColumn = {bg = colors.Black}

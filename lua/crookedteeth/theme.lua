@@ -23,7 +23,7 @@ theme.base.number = {fg = colors.Pink, underline = true}
 theme.base.string = {fg = colors.Pink, italic = true, underline = true}
 theme.base.type = {fg = colors.Red, bold = true}
 theme.base.method = {fg = colors.Orange, bold = true}
-theme.base.identifier = {fg = colors.DarkPurple}
+theme.base.identifier = {fg = colors.Blue}
 theme.base.statement = {fg = colors.Purple}
 theme.base.comment = {fg = colors.LightBlue, italic = true}
 theme.base.constant = {fg = colors.Pink, underline = true}

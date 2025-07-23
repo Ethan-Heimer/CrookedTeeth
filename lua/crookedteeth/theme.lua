@@ -74,6 +74,6 @@ theme.keyword.definitions = {fg = colors.Red, bold = true, italic = true}
 theme.keyword.variable = {fg = colors.Blue};
 theme.keyword.definitions = {fg = colors.LightBlue};
 theme.keyword.property = {fg = colors.LightBlue};
-theme.keyword.parameter = {fg = colors.BluePurple, bold = true};
+theme.keyword.parameter = {fg = colors.Gray, bold = true};
 
 return theme;

@@ -72,6 +72,6 @@ theme.keyword.builtinConstant = {fg = colors.Pink, underline = true, bold = true
 theme.keyword.definitions = {fg = colors.Red, bold = true, italic = true}
 theme.keyword.variable = {fg = colors.Blue};
 theme.keyword.definitions = {fg = colors.LightBlue};
-theme.keyword.property = {fg = colors.LighBlue};
+theme.keyword.property = {fg = colors.LightBlue};
 
 return theme;

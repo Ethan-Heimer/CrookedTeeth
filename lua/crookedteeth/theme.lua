@@ -24,7 +24,7 @@ theme.name = "Crooked Teeth"
 theme.base.number = {fg = colors.Pink, underline = true}
 theme.base.string = {fg = colors.Pink, italic = true, underline = true}
 theme.base.type = {fg = colors.Red, bold = true}
---theme.base.method = {fg = colors.Orange, bold = true}
+theme.base.method = {fg = colors.Orange, bold = true}
 theme.base.identifier = {fg = colors.LighBlue}
 theme.base.statement = {fg = colors.Purple}
 theme.base.comment = {fg = colors.Green, italic = true}

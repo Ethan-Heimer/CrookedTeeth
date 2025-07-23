@@ -21,7 +21,7 @@ local theme = crooked.NewTheme();
 
 theme.name = "Crooked Teeth"
 
-theme.base.number = {fg = colors.LightBlue, underline = true}
+theme.base.number = {fg = colors.Pink, underline = true}
 theme.base.string = {fg = colors.Pink, italic = true, underline = true}
 theme.base.type = {fg = colors.Red, bold = true}
 theme.base.method = {fg = colors.Orange, bold = true}

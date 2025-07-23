@@ -4,7 +4,7 @@ local colors = {
     Clear = "none",
     white = "#ffffff",
     Gray = "#B5A0B5",
-    Black = "#1A1423",
+    Black = "#1A1423DD",
     DarkPurple = "#372549",
     Purple = "#774C60",
     Red = "#B75D69",
@@ -32,11 +32,11 @@ theme.base.symbol = {fg = colors.Orange}
 theme.base.boolean = {fg = colors.Pink, bold = true, underline = true}
 theme.base.keyword = {fg = colors.Purple}
 
-theme.editor.lineNumber = {fg = colors.Gray, bg = colors.Black, bold = true}
+theme.editor.lineNumber = {fg = colors.Gray, bg = colors.Clear, bold = true}
 theme.editor.colorColumn = {bg = colors.Black}
 theme.editor.background = {bg = colors.Clear}
 theme.editor.cursorColumn = {bg = colors.Black}
-theme.editor.indentLine = {fg = colors.DarkBlack}
+theme.editor.indentLine = {fg = colors.Clear}
 theme.editor.indentScope = {fg = colors.Red}
 theme.editor.error = {bg = colors.Red, fg = "#000000"}
 theme.editor.warning = {fg = colors.Orange}
@@ -62,9 +62,9 @@ theme.netrw.image = {fg = colors.Red}
 theme.keyword.modifier = {fg = colors.Purple}
 theme.keyword.builtinType = {fg = colors.Pink, bold = true, italic = true}
 theme.keyword.builtinMethod = {fg = colors.Pink, bold = true, italic = true}
-theme.keyword.loop = {fg = colors.Pink, italic = true}
-theme.keyword.returning = {fg = colors.Pink, underline = true, italic = true, bold = true}
-theme.keyword.conditional = {fg = colors.Red, bold = true}
+theme.keyword.loop = {fg = colors.Purple, italic = true}
+theme.keyword.returning = {fg = colors.Purple, underline = true, italic = true, bold = true}
+theme.keyword.conditional = {fg = colors.Purple, bold = true}
 theme.keyword.macroConstant = {fg = colors.Red, underline = true}
 theme.keyword.import = {fg = colors.Purple, italic = true}
 theme.keyword.define = {fg  = colors.Red, italic = true}

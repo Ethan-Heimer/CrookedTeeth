@@ -7,6 +7,7 @@ local colors = {
     Black = "#1A1423",
     DarkPurple = "#372549",
     Purple = "#774C60",
+    BluePurple = "#494392",
     Red = "#B75D69",
     Orange = "#FFC15E",
     Pink = "#F6A2C9",
@@ -73,5 +74,6 @@ theme.keyword.definitions = {fg = colors.Red, bold = true, italic = true}
 theme.keyword.variable = {fg = colors.Blue};
 theme.keyword.definitions = {fg = colors.LightBlue};
 theme.keyword.property = {fg = colors.LightBlue};
+theme.keyword.parameter = {fg = colors.BluePurple, bold = true};
 
 return theme;

@@ -9,13 +9,13 @@ local colors = {
     Purple = "#7f4163",
     Red = "#b85b6a",
     RedOrange = "#f47d75",
-    Orange = "#f9b380",
+    Orange = "#fabb86",
     LightOrange = "#FFE0Af",
     Pink = "#af88a5",
     LightPink = "#d5b4c5",
     Blue = "#72d8f9",
     LightBlue = "#b6e0f6",
-    Green = "#BAF2BB"
+    Green = "#cdfeb9"
 }
 
 local theme = crooked.NewTheme();

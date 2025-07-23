@@ -21,11 +21,11 @@ local theme = crooked.NewTheme();
 
 theme.name = "Crooked Teeth"
 
-theme.base.number = {fg = colors.Pink, underline = true}
+theme.base.number = {fg = colors.LightBlue, underline = true}
 theme.base.string = {fg = colors.Pink, italic = true, underline = true}
 theme.base.type = {fg = colors.Red, bold = true}
 theme.base.method = {fg = colors.Orange, bold = true}
-theme.base.identifier = {fg = colors.LighBlue}
+theme.base.identifier = {fg = colors.Green}
 theme.base.statement = {fg = colors.Purple}
 theme.base.comment = {fg = colors.Green, italic = true}
 theme.base.constant = {fg = colors.Pink, underline = true}
@@ -67,9 +67,9 @@ theme.keyword.builtinMethod = {fg = colors.LightOrange, bold = true, italic = tr
 theme.keyword.loop = {fg = colors.Purple, italic = true}
 theme.keyword.returning = {fg = colors.Purple, underline = true, italic = true, bold = true}
 theme.keyword.conditional = {fg = colors.Purple, bold = true}
-theme.keyword.macroConstant = {fg = colors.Orange, underline = true}
+theme.keyword.macroConstant = {fg = colors.LightOrange, underline = true}
 theme.keyword.import = {fg = colors.Purple, italic = true}
-theme.keyword.define = {fg  = colors.LightOrange, italic = true}
+theme.keyword.define = {fg  = colors.Orange, italic = true}
 theme.keyword.builtinConstant = {fg = colors.Pink, underline = true, bold = true}
 theme.keyword.definitions = {fg = colors.Red, bold = true, italic = true}
 theme.keyword.variable = {fg = colors.Blue};

@@ -37,7 +37,7 @@ theme.base.keyword = {fg = colors.Purple}
 theme.editor.lineNumber = {fg = colors.Green, bg = colors.Clear, bold = true}
 theme.editor.colorColumn = {bg = colors.Black}
 theme.editor.background = {bg = colors.Clear}
-theme.editor.cursorColumn = {bg = colors.Black}
+theme.editor.cursorColumn = {bg = colors.Clear}
 theme.editor.indentLine = {fg = colors.Clear}
 theme.editor.indentScope = {fg = colors.Red}
 theme.editor.error = {bg = colors.Red, fg = "#000000"}

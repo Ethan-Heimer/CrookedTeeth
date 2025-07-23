@@ -67,9 +67,9 @@ theme.keyword.builtinMethod = {fg = colors.LightOrange, bold = true, italic = tr
 theme.keyword.loop = {fg = colors.Purple, italic = true}
 theme.keyword.returning = {fg = colors.Purple, underline = true, italic = true, bold = true}
 theme.keyword.conditional = {fg = colors.Purple, bold = true}
-theme.keyword.macroConstant = {fg = colors.Red, underline = true}
+theme.keyword.macroConstant = {fg = colors.Orange, underline = true}
 theme.keyword.import = {fg = colors.Purple, italic = true}
-theme.keyword.define = {fg  = colors.Red, italic = true}
+theme.keyword.define = {fg  = colors.LightOrange, italic = true}
 theme.keyword.builtinConstant = {fg = colors.Pink, underline = true, bold = true}
 theme.keyword.definitions = {fg = colors.Red, bold = true, italic = true}
 theme.keyword.variable = {fg = colors.Blue};

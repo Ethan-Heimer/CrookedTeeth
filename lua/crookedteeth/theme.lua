@@ -11,8 +11,8 @@ local colors = {
     Orange = "#FFC15E",
     Pink = "#F6A2C9",
     Blue = "#13CDF6",
-    LightBlue = "#89DFE3"
-
+    LightBlue = "#89DFE3",
+    Green = "#BAF2BB"
 }
 
 local theme = crooked.NewTheme();
@@ -25,14 +25,14 @@ theme.base.type = {fg = colors.Red, bold = true}
 theme.base.method = {fg = colors.Orange, bold = true}
 theme.base.identifier = {fg = colors.LighBlue}
 theme.base.statement = {fg = colors.Purple}
-theme.base.comment = {fg = colors.LightBlue, italic = true}
+theme.base.comment = {fg = colors.Green, italic = true}
 theme.base.constant = {fg = colors.Pink, underline = true}
 theme.base.preproc = {fg = colors.Orange, bold = true}
 theme.base.symbol = {fg = colors.Orange}
 theme.base.boolean = {fg = colors.Pink, bold = true, underline = true}
 theme.base.keyword = {fg = colors.Purple}
 
-theme.editor.lineNumber = {fg = colors.Gray, bg = colors.Clear, bold = true}
+theme.editor.lineNumber = {fg = colors.Green, bg = colors.Clear, bold = true}
 theme.editor.colorColumn = {bg = colors.Black}
 theme.editor.background = {bg = colors.Clear}
 theme.editor.cursorColumn = {bg = colors.Black}
@@ -46,7 +46,7 @@ theme.editor.search = {fg = colors.Gray}
 theme.editor.nontext = {fg = colors.Gray}
 
 theme.netrw.dir = {fg = colors.Orange}
-theme.netrw.exe = {fg = colors.Pink}
+theme.netrw.exe = {fg = colors.Green}
 theme.netrw.symlink = {fg = colors.Orange}
 theme.netrw.version = {fg = colors.DarkPurple}
 theme.netrw.gray = {fg = colors.Gray}

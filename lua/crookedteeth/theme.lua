@@ -76,6 +76,6 @@ theme.keyword.variable = {fg = colors.Blue};
 theme.keyword.definitions = {fg = colors.LightBlue};
 theme.keyword.property = {fg = colors.LightBlue};
 theme.keyword.parameter = {fg = colors.Gray, bold = true};
-theme.keyboard.macroMethod = {fg = colors.LightOrange, bold = true}
+theme.keyword.macroMethod = {fg = colors.LightOrange, bold = true}
 
 return theme;

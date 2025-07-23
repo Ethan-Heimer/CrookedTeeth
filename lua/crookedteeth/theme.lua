@@ -10,6 +10,7 @@ local colors = {
     BluePurple = "#494392",
     Red = "#B75D69",
     Orange = "#FFC15E",
+    LightOrange = "#FFE0Af",
     Pink = "#F6A2C9",
     Blue = "#89DFE3",
     LightBlue = "#C2FFFC",
@@ -61,8 +62,8 @@ theme.netrw.folder = {fg = colors.Orange}
 theme.netrw.image = {fg = colors.Red}
 
 theme.keyword.modifier = {fg = colors.Purple}
-theme.keyword.builtinType = {fg = colors.Pink, bold = true, italic = true}
-theme.keyword.builtinMethod = {fg = colors.Pink, bold = true, italic = true}
+theme.keyword.builtinType = {fg = colors.LightOrange, bold = true, italic = true}
+theme.keyword.builtinMethod = {fg = colors.LightOrange, bold = true, italic = true}
 theme.keyword.loop = {fg = colors.Purple, italic = true}
 theme.keyword.returning = {fg = colors.Purple, underline = true, italic = true, bold = true}
 theme.keyword.conditional = {fg = colors.Purple, bold = true}

@@ -11,8 +11,8 @@ local colors = {
     Red = "#B75D69",
     Orange = "#FFC15E",
     Pink = "#F6A2C9",
-    Blue = "#13CDF6",
-    LightBlue = "#89DFE3",
+    Blue = "#89DFE3",
+    LightBlue = "#C2FFFC",
     Green = "#BAF2BB"
 }
 

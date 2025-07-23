@@ -6,15 +6,15 @@ local colors = {
     Gray = "#B5A0B5",
     Black = "#1A1423",
     DarkPurple = "#372549",
-    Purple = "#A15F88",
-    BluePurple = "#494392",
-    Red = "#B75D69",
+    Purple = "#7f4163",
+    Red = "#b85b6a",
+    RedOrange = "#f47d75",
     Orange = "#FFC15E",
     LightOrange = "#FFE0Af",
-    Pink = "#F6A2C9",
-    LightPink = "#EBBDCE",
-    Blue = "#89DFE3",
-    LightBlue = "#C2FFFC",
+    Pink = "#af88a5",
+    LightPink = "#d5b4c5",
+    Blue = "#72d8f9",
+    LightBlue = "#b6e0f6",
     Green = "#BAF2BB"
 }
 
@@ -63,7 +63,7 @@ theme.netrw.folder = {fg = colors.Orange}
 theme.netrw.image = {fg = colors.Red}
 
 theme.keyword.modifier = {fg = colors.Purple}
-theme.keyword.builtinType = {fg = colors.LightPink, bold = true, italic = true}
+theme.keyword.builtinType = {fg = colors.RedOrange, bold = true, italic = true}
 theme.keyword.builtinMethod = {fg = colors.LightOrange, bold = true, italic = true}
 theme.keyword.loop = {fg = colors.Purple, italic = true}
 theme.keyword.returning = {fg = colors.Purple, underline = true, italic = true, bold = true}
@@ -76,7 +76,7 @@ theme.keyword.definitions = {fg = colors.Red, bold = true, italic = true}
 theme.keyword.variable = {fg = colors.Blue};
 theme.keyword.definitions = {fg = colors.LightBlue};
 theme.keyword.property = {fg = colors.LightBlue};
-theme.keyword.parameter = {fg = colors.Gray, bold = true};
+theme.keyword.parameter = {fg = colors.LightPink, bold = true};
 theme.keyword.macroMethod = {fg = colors.LightOrange, bold = true}
 
 return theme;

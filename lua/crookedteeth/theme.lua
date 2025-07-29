@@ -5,7 +5,6 @@ local colors = {
     white = "#ffffff",
     Gray = "#B5A0B5",
     Black = "#1A1423",
-    DarkPurple = "#372549",
     Purple = "#7f4163",
     Red = "#b85b6a",
     RedOrange = "#f47d75",
@@ -22,14 +21,14 @@ local theme = crooked.NewTheme();
 
 theme.name = "Crooked Teeth"
 
-theme.base.number = {fg = colors.Pink, underline = true}
-theme.base.string = {fg = colors.Pink, italic = true, underline = true}
+theme.base.number = {fg = colors.RedOrange, underline = true}
+theme.base.string = {fg = colors.RedOrange, italic = true, underline = true}
 theme.base.type = {fg = colors.Red, bold = true}
 theme.base.method = {fg = colors.Orange, bold = true}
 theme.base.identifier = {fg = colors.Green}
-theme.base.statement = {fg = colors.Purple}
+theme.base.statement = {fg = colors.Pink}
 theme.base.comment = {fg = colors.Green, italic = true}
-theme.base.constant = {fg = colors.Pink, underline = true}
+theme.base.constant = {fg = colors.RedOrange, underline = true}
 theme.base.preproc = {fg = colors.Orange, bold = true}
 theme.base.symbol = {fg = colors.Orange}
 theme.base.boolean = {fg = colors.Pink, bold = true, underline = true}
@@ -51,7 +50,7 @@ theme.editor.nontext = {fg = colors.Gray}
 theme.netrw.dir = {fg = colors.Orange}
 theme.netrw.exe = {fg = colors.Green}
 theme.netrw.symlink = {fg = colors.Orange}
-theme.netrw.version = {fg = colors.DarkPurple}
+theme.netrw.version = {fg = colors.Purple}
 theme.netrw.gray = {fg = colors.Gray}
 theme.netrw.date = {fg = colors.Purple}
 theme.netrw.time = {fg = colors.Purple}
@@ -65,9 +64,9 @@ theme.netrw.image = {fg = colors.Red}
 theme.keyword.modifier = {fg = colors.Purple}
 theme.keyword.builtinType = {fg = colors.RedOrange, bold = true, italic = true}
 theme.keyword.builtinMethod = {fg = colors.LightOrange, bold = true, italic = true}
-theme.keyword.loop = {fg = colors.Purple, italic = true}
-theme.keyword.returning = {fg = colors.Purple, underline = true, italic = true, bold = true}
-theme.keyword.conditional = {fg = colors.Purple, bold = true}
+theme.keyword.loop = {fg = colors.Pink, italic = true}
+theme.keyword.returning = {fg = colors.Pink, underline = true, italic = true, bold = true}
+theme.keyword.conditional = {fg = colors.Pink, bold = true}
 theme.keyword.macroConstant = {fg = colors.LightOrange, underline = true}
 theme.keyword.import = {fg = colors.LightBlue, italic = true}
 theme.keyword.define = {fg  = colors.Orange, italic = true}

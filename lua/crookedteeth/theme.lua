@@ -46,6 +46,7 @@ theme.editor.menu = {bg = colors.Clear}
 theme.editor.title = {fg = colors.Gray}
 theme.editor.search = {fg = colors.Gray}
 theme.editor.nontext = {fg = colors.Gray}
+theme.editor.cmpBox = {bg = colors.Black}
 
 theme.netrw.dir = {fg = colors.Orange}
 theme.netrw.exe = {fg = colors.Green}

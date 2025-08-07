@@ -42,7 +42,7 @@ theme.editor.indentLine = {fg = colors.Clear}
 theme.editor.indentScope = {fg = colors.Red}
 theme.editor.error = {bg = colors.Red, fg = "#000000"}
 theme.editor.warning = {fg = colors.Orange}
-theme.editor.menu = {bg = colors.Clear}
+theme.editor.menu = {bg = colors.Black}
 theme.editor.title = {fg = colors.Gray}
 theme.editor.search = {fg = colors.Gray}
 theme.editor.nontext = {fg = colors.Gray}
